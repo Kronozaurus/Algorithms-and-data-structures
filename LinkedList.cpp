@@ -64,6 +64,25 @@ template <class Type> void List <Type> :: add (Type toAdd) {
         toAdd->next_ = nullptr;
     }
     */
+	
+    /*
+        Link* tmp = first_;
+
+    if(first_ == nullptr or toAdd > first_->val_) {
+
+        first_ = new Link(toAdd, first_);
+
+    }
+
+    else {
+
+        while(tmp->next_ != nullptr and toAdd < tmp->next_->val_) {
+            tmp = tmp->next_;
+        }
+        
+        tmp->next_ = new Link(toAdd, tmp->next_);
+   }
+   */
 }
 
 template <class Type> void List <Type> :: remove () {
